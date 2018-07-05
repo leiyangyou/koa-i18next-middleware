@@ -2,7 +2,7 @@
 logs
 *.log
 npm-debug.log*
-dist
+# dist
 .vscode
 .idea
 
