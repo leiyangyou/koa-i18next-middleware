@@ -43,7 +43,7 @@ export function getHandler(i18next, options = {}){
         let exists = i18n.exists.bind(i18n);
 
         // assert for req
-        req.i18n = i18n;
+        req.i18next = i18n;
         req.t = t;
 
         // assert for res -> template
